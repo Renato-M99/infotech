@@ -1,0 +1,87 @@
+/* resets gerais */
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+/* header */
+/* menu de logo e da pesquisa */
+.top{
+    background: #000;   
+    height: 110px;
+
+}
+
+.topmenu{
+   
+    width: 80%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    cursor: pointer;
+    align-items: center;
+    /* margin-top: 25px; */
+    font-size: 1.2em;
+    padding: 24px 28px;
+}
+
+.login p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* imgs do top menu */
+/* icone logo squad */
+.logo img{
+    width: 160px;   
+    height: 80px;
+
+}
+
+/* carrinho */
+.cart{
+    display: flex;
+    align-items: center;
+}
+
+.cart p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cart img{
+    width: 48px;
+    
+}
+
+/* form search */
+.search-container{
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.search input{
+    width: 404px;
+    height: 34px;
+    border: none;
+    font-size: 32px;
+}
+
+/* search button */
+.fa-solid{
+    font-size: 18px;
+    
+}
+
+.fa-magnifying-glass{
+    color: #000;
+}
+/* end search button */
