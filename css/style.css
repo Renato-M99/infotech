@@ -1,20 +1,25 @@
 /* resets gerais */
-*{
-    
+* {
+
     margin: 0;
     padding: 0;
-    
+
 }
+
+body {
+    background-color: #4b474B;
+}
+
 /* header */
 /* menu de logo e da pesquisa */
-.top{
-    background: #000;   
+.top {
+    background: #000;
     height: 110px;
 
 }
 
-.topmenu{
-   
+.topmenu {
+
     width: 80%;
     color: #fff;
     display: flex;
@@ -28,7 +33,7 @@
     padding: 24px 28px;
 }
 
-.login p{
+.login p {
     font-size: 18px;
     font-weight: bold;
 }
@@ -36,52 +41,192 @@
 
 /* imgs do top menu */
 /* icone logo squad */
-.logo img{
-    width: 160px;   
+.logo img {
+    width: 160px;
     height: 80px;
-
+    border-radius: 16px;
 }
 
 /* carrinho */
-.cart{
+.cart {
     display: flex;
     align-items: center;
 }
 
-.cart p{
+.cart p {
     font-size: 18px;
     font-weight: bold;
     color: #fff;
 }
 
-.cart img{
+.cart img {
     width: 48px;
-    
+
 }
 
 /* form search */
-.search-container{
+.search-container {
     background: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     padding: 10px 30px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
-.search input{
+.search input {
     width: 404px;
-    height: 34px;
+    height: 24px;
     border: none;
-    font-size: 32px;
+    font-size: 26px;
+    padding: 10px;
 }
 
 /* search button */
-.fa-solid{
+.fa-solid {
     font-size: 18px;
+
+}
+
+.fa-magnifying-glass {
+    color: #000;
+    margin-left: -30px;
+    /* end search button */
+}
+
+/* Nav bar menu */
+
+.navbar {
+    /*  background-color: rgb(0, 0, 0); */
+
+
+}
+
+.menu {
+    width: 85%;
+    background: #fff;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+
+}
+
+.menu-btn {}
+
+.fa-solid {
+    font-size: 32px;
+    /* margin: 0 auto; */
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    height: 58px;
+    list-style: none;
+    align-items: center;
+}
+
+.menu ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(93, 93, 93);
+}
+
+.menu ul li a:hover {
+    color: rgb(131, 131, 131);
+}
+
+
+/* main */
+
+.products h1 {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* product-banner */
+.product-img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.product-img img {
+    border-radius: 15px;
+    width: 70%;
+
+}
+
+/* promos banners */
+.promos {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+
+
+}
+
+.promos img {
+    margin-top: 64px;
+    width: 300px;
+    height: 260px;
+    /*  margin: 0 auto; */
+    padding: 100px;
+
+}
+
+/* prices */
+
+.prices {
+    display: flex;
+    justify-content:center;
+    margin: 0 auto;
+    margin-top: 12px;
     
 }
 
-.fa-magnifying-glass{
-    color: #000;
+.promos-week h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+
 }
-/* end search button */
+
+.prices p {
+    font-size: 24px;
+    font-weight: bold;
+    /* margin: 0 auto; */
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.prices-img{
+    padding: 50px;
+}
+
+.prices-img img {
+    
+    width: 180px;
+    padding: 60px;
+    
+
+}
+
+/* banner */
+.banner{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    cursor: pointer;
+}
+
+.banner img{
+    border-radius: 15px;
+    width: 80%;
+}
